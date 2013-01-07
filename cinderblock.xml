@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<cinder>
+<block
+	name="AudioUnit"
+	id="com.admsyn.audiounit"
+	author="Adam Carlucci"
+	summary="Simplifies hosting of Audio Units"
+    git="git://github.com/admsyn/Cinder-AudioUnit.git"
+	>
+
+    <supports os="macosx" />
+    <platform os="macosx">
+        <framework sdk="true">Carbon.framework</framework>
+        <framework sdk="true">CoreAudioKit.framework</framework>
+        <framework sdk="true">CoreMidi.framework</framework>
+    </platform>
+
+    <header>include/AudioUnit.h</header>
+
+    <includePath>include</includePath>
+
+	<sourcePattern>src/*.cpp</sourcePattern>
+	<sourcePattern>src/*.mm</sourcePattern>
+	<headerPattern>src/*.h</headerPattern>
+    <sourcePattern>src/TPCircularBuffer/*.cpp</sourcePattern>
+    <headerPattern>src/TPCircularBuffer/*.h</headerPattern>
+    
+	<copyExclude>samples</copyExclude>
+
+</block>
+</cinder>

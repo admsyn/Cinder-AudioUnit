@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 44;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0091D8F90E81B9330029341E /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0091D8F80E81B9330029341E /* OpenGL.framework */; };
+		00B784B30FF439BC000DE1D7 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784AF0FF439BC000DE1D7 /* Accelerate.framework */; };
+		00B784B40FF439BC000DE1D7 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B00FF439BC000DE1D7 /* AudioToolbox.framework */; };
+		00B784B50FF439BC000DE1D7 /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B10FF439BC000DE1D7 /* AudioUnit.framework */; };
+		00B784B60FF439BC000DE1D7 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B20FF439BC000DE1D7 /* CoreAudio.framework */; };
+		5323E6B20EAFCA74003A9687 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5323E6B10EAFCA74003A9687 /* CoreVideo.framework */; };
+		5323E6B60EAFCA7E003A9687 /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5323E6B50EAFCA7E003A9687 /* QTKit.framework */; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		E7354D6029ED482A91023CE4 /* TPCircularBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 41DF463D7E7C438B9E36FA63 /* TPCircularBuffer.h */; };
+		6F93E2A01B6548B3827FFCA7 /* TPCircularBuffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B8354ABBA1FD42D4B59421F0 /* TPCircularBuffer.cpp */; };
+		E84BF00FF6EB4B7084B621FC /* GenericUnitSubclasses.h in Headers */ = {isa = PBXBuildFile; fileRef = BAB279283BEC4657A3F29AB6 /* GenericUnitSubclasses.h */; };
+		F6AD9829F1054AE7B49B192A /* GenericUnit.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FF3D898AD5D46C2A5631FC8 /* GenericUnit.h */; };
+		808B070E9A3B4C0584D747E8 /* AudioUnitUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = C0C31EC6AD4A4581B7FC7617 /* AudioUnitUtils.h */; };
+		3C39AA2C3E064733A185FD52 /* AudioUnitTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 170CCAF2D9DF4136A957AA43 /* AudioUnitTypes.h */; };
+		E9F5FBE9DAC248C59EC4BC63 /* AudioUnitTap.h in Headers */ = {isa = PBXBuildFile; fileRef = 06865570D6C0483BBE6E3616 /* AudioUnitTap.h */; };
+		48A0A23B005C4DEF829A5C28 /* AudioUnitMidi.h in Headers */ = {isa = PBXBuildFile; fileRef = E4080FED84DC46B794D0031A /* AudioUnitMidi.h */; };
+		BEE63B602FA04394AC5BAD37 /* GUI.mm in Sources */ = {isa = PBXBuildFile; fileRef = AE07552348C74E7C9C03C894 /* GUI.mm */; };
+		E7E3B7DD99104CB1B721712C /* Tap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4EE6BB9A00A849E5B18F08C2 /* Tap.cpp */; };
+		BD77602D979347F284B4F5CD /* SpeechSynth.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 937F8BFDE6B348C7AFEA37D0 /* SpeechSynth.cpp */; };
+		E4426ACE59854F569FDAF6C8 /* Sampler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 858622487CB24A438D1A875A /* Sampler.cpp */; };
+		4009681C5FE248DEB40E3CD4 /* Output.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 317925A3AFC647BC9B111D22 /* Output.cpp */; };
+		6917F7DE03424208AD5641A4 /* NetSend.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D105078059724842943BDAF6 /* NetSend.cpp */; };
+		515A1224D54A44239723DDD6 /* NetReceive.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AE4491B70CEE4303AAF948F3 /* NetReceive.cpp */; };
+		C3032765DD9449898D7F3EA1 /* Mixer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D4CA7A7057642A79AC5E79A /* Mixer.cpp */; };
+		BC950E50C7854D60B3B3C0B7 /* Midi.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 37FA8EC40F614278BBBE4854 /* Midi.cpp */; };
+		D17D7AB153EA401189E2DF0F /* Input.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22F0C02A16F147D0A1E763D0 /* Input.cpp */; };
+		4FD9764F5B9A453096F90833 /* GenericUnit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66EE08EC1E48447A997A4627 /* GenericUnit.cpp */; };
+		219FE48A88294646B2063D4A /* FilePlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AE7C88CE1B6A487E91B28F2E /* FilePlayer.cpp */; };
+		2C87F1DC3649493A982F3707 /* AudioUnit.h in Headers */ = {isa = PBXBuildFile; fileRef = DD865B7140B1415B868D8D08 /* AudioUnit.h */; };
+		5E337B5383E24123B7F9B367 /* CoreMidi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 869EB103D6054A16A363F27E /* CoreMidi.framework */; };
+		CDC6D31A28EF4BEFAC47DDE3 /* CoreAudioKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF754A6DDA914B1DA72A855F /* CoreAudioKit.framework */; };
+		316C8DCE09C842C389B53AD0 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B42A5AB124B043C7AA76C160 /* Carbon.framework */; };
+		699A5C53549A4F16A47478CD /* auMidi_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 7E93E9354CE64F388042F86C /* auMidi_Prefix.pch */; };
+		2F17928BF3E74EFF9DAB297E /* CinderApp.icns in Resources */ = {isa = PBXBuildFile; fileRef = 0063318651B742CFAC8430A4 /* CinderApp.icns */; };
+		2C556CD3DB7741ABBB1979F9 /* Resources.h in Headers */ = {isa = PBXBuildFile; fileRef = C7C3653EC9064FE3A907A498 /* Resources.h */; };
+		84A9C3C74F4A4D0FB28CA47C /* auMidiApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 137BA97908CB49B2B986FB56 /* auMidiApp.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0091D8F80E81B9330029341E /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		00B784AF0FF439BC000DE1D7 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		00B784B00FF439BC000DE1D7 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		00B784B10FF439BC000DE1D7 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
+		00B784B20FF439BC000DE1D7 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		5323E6B10EAFCA74003A9687 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = /System/Library/Frameworks/CoreVideo.framework; sourceTree = "<absolute>"; };
+		5323E6B50EAFCA7E003A9687 /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = /System/Library/Frameworks/QTKit.framework; sourceTree = "<absolute>"; };
+		8D1107320486CEB800E47090 /* auMidi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = auMidi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		137BA97908CB49B2B986FB56 /* auMidiApp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; path = ../src/auMidiApp.cpp; sourceTree = "<group>"; name = auMidiApp.cpp; };
+		C7C3653EC9064FE3A907A498 /* Resources.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ../include/Resources.h; sourceTree = "<group>"; name = Resources.h; };
+		0063318651B742CFAC8430A4 /* CinderApp.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = ../resources/CinderApp.icns; sourceTree = "<group>"; name = CinderApp.icns; };
+		3EB265FD1B53451594EE32D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; name = Info.plist; };
+		7E93E9354CE64F388042F86C /* auMidi_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; path = auMidi_Prefix.pch; sourceTree = "<group>"; name = auMidi_Prefix.pch; };
+		B42A5AB124B043C7AA76C160 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; name = Carbon.framework; };
+		CF754A6DDA914B1DA72A855F /* CoreAudioKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = System/Library/Frameworks/CoreAudioKit.framework; sourceTree = SDKROOT; name = CoreAudioKit.framework; };
+		869EB103D6054A16A363F27E /* CoreMidi.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = System/Library/Frameworks/CoreMidi.framework; sourceTree = SDKROOT; name = CoreMidi.framework; };
+		DD865B7140B1415B868D8D08 /* AudioUnit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ../../../../../../Cinder/blocks/AudioUnit/include/AudioUnit.h; sourceTree = "<group>"; name = AudioUnit.h; };
+		AE7C88CE1B6A487E91B28F2E /* FilePlayer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; path = ../../../../../../Cinder/blocks/AudioUnit/src/FilePlayer.cpp; sourceTree = "<group>"; name = FilePlayer.cpp; };
+		66EE08EC1E48447A997A4627 /* GenericUnit.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; path = ../../../../../../Cinder/blocks/AudioUnit/src/GenericUnit.cpp; sourceTree = "<group>"; name = GenericUnit.cpp; };
+		22F0C02A16F147D0A1E763D0 /* Input.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; path = ../../../../../../Cinder/blocks/AudioUnit/src/Input.cpp; sourceTree = "<group>"; name = Input.cpp; };
+		37FA8EC40F614278BBBE4854 /* Midi.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; path = ../../../../../../Cinder/blocks/AudioUnit/src/Midi.cpp; sourceTree = "<group>"; name = Midi.cpp; };
+		3D4CA7A7057642A79AC5E79A /* Mixer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; path = ../../../../../../Cinder/blocks/AudioUnit/src/Mixer.cpp; sourceTree = "<group>"; name = Mixer.cpp; };
+		AE4491B70CEE4303AAF948F3 /* NetReceive.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; path = ../../../../../../Cinder/blocks/AudioUnit/src/NetReceive.cpp; sourceTree = "<group>"; name = NetReceive.cpp; };
+		D105078059724842943BDAF6 /* NetSend.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; path = ../../../../../../Cinder/blocks/AudioUnit/src/NetSend.cpp; sourceTree = "<group>"; name = NetSend.cpp; };
+		317925A3AFC647BC9B111D22 /* Output.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; path = ../../../../../../Cinder/blocks/AudioUnit/src/Output.cpp; sourceTree = "<group>"; name = Output.cpp; };
+		858622487CB24A438D1A875A /* Sampler.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; path = ../../../../../../Cinder/blocks/AudioUnit/src/Sampler.cpp; sourceTree = "<group>"; name = Sampler.cpp; };
+		937F8BFDE6B348C7AFEA37D0 /* SpeechSynth.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; path = ../../../../../../Cinder/blocks/AudioUnit/src/SpeechSynth.cpp; sourceTree = "<group>"; name = SpeechSynth.cpp; };
+		4EE6BB9A00A849E5B18F08C2 /* Tap.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; path = ../../../../../../Cinder/blocks/AudioUnit/src/Tap.cpp; sourceTree = "<group>"; name = Tap.cpp; };
+		AE07552348C74E7C9C03C894 /* GUI.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ../../../../../../Cinder/blocks/AudioUnit/src/GUI.mm; sourceTree = "<group>"; name = GUI.mm; };
+		E4080FED84DC46B794D0031A /* AudioUnitMidi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ../../../../../../Cinder/blocks/AudioUnit/src/AudioUnitMidi.h; sourceTree = "<group>"; name = AudioUnitMidi.h; };
+		06865570D6C0483BBE6E3616 /* AudioUnitTap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ../../../../../../Cinder/blocks/AudioUnit/src/AudioUnitTap.h; sourceTree = "<group>"; name = AudioUnitTap.h; };
+		170CCAF2D9DF4136A957AA43 /* AudioUnitTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ../../../../../../Cinder/blocks/AudioUnit/src/AudioUnitTypes.h; sourceTree = "<group>"; name = AudioUnitTypes.h; };
+		C0C31EC6AD4A4581B7FC7617 /* AudioUnitUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ../../../../../../Cinder/blocks/AudioUnit/src/AudioUnitUtils.h; sourceTree = "<group>"; name = AudioUnitUtils.h; };
+		6FF3D898AD5D46C2A5631FC8 /* GenericUnit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ../../../../../../Cinder/blocks/AudioUnit/src/GenericUnit.h; sourceTree = "<group>"; name = GenericUnit.h; };
+		BAB279283BEC4657A3F29AB6 /* GenericUnitSubclasses.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ../../../../../../Cinder/blocks/AudioUnit/src/GenericUnitSubclasses.h; sourceTree = "<group>"; name = GenericUnitSubclasses.h; };
+		B8354ABBA1FD42D4B59421F0 /* TPCircularBuffer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; path = ../../../../../../Cinder/blocks/AudioUnit/src/TPCircularBuffer/TPCircularBuffer.cpp; sourceTree = "<group>"; name = TPCircularBuffer.cpp; };
+		41DF463D7E7C438B9E36FA63 /* TPCircularBuffer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ../../../../../../Cinder/blocks/AudioUnit/src/TPCircularBuffer/TPCircularBuffer.h; sourceTree = "<group>"; name = TPCircularBuffer.h; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				0091D8F90E81B9330029341E /* OpenGL.framework in Frameworks */,
+				5323E6B20EAFCA74003A9687 /* CoreVideo.framework in Frameworks */,
+				5323E6B60EAFCA7E003A9687 /* QTKit.framework in Frameworks */,
+				00B784B30FF439BC000DE1D7 /* Accelerate.framework in Frameworks */,
+				00B784B40FF439BC000DE1D7 /* AudioToolbox.framework in Frameworks */,
+				00B784B50FF439BC000DE1D7 /* AudioUnit.framework in Frameworks */,
+				00B784B60FF439BC000DE1D7 /* CoreAudio.framework in Frameworks */,
+				316C8DCE09C842C389B53AD0 /* Carbon.framework in Frameworks */,
+				CDC6D31A28EF4BEFAC47DDE3 /* CoreAudioKit.framework in Frameworks */,
+				5E337B5383E24123B7F9B367 /* CoreMidi.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				137BA97908CB49B2B986FB56 /* auMidiApp.cpp */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00B784AF0FF439BC000DE1D7 /* Accelerate.framework */,
+				00B784B00FF439BC000DE1D7 /* AudioToolbox.framework */,
+				00B784B10FF439BC000DE1D7 /* AudioUnit.framework */,
+				00B784B20FF439BC000DE1D7 /* CoreAudio.framework */,
+				5323E6B50EAFCA7E003A9687 /* QTKit.framework */,
+				5323E6B10EAFCA74003A9687 /* CoreVideo.framework */,
+				0091D8F80E81B9330029341E /* OpenGL.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* auMidi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* auMidi */ = {
+			isa = PBXGroup;
+			children = (
+				01B97315FEAEA392516A2CEA /* Blocks */,
+				29B97315FDCFA39411CA2CEA /* Headers */,
+				080E96DDFE201D6D7F000001 /* Source */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = auMidi;
+			sourceTree = "<group>";
+		};
+		CF544B00BE5A4CF3956B9E96 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				DD865B7140B1415B868D8D08 /* AudioUnit.h */,
+			);
+			name = include;
+			sourceTree = "<group>";
+		};
+		C9768F2CC0DE4A029B51D142 /* TPCircularBuffer */ = {
+			isa = PBXGroup;
+			children = (
+				B8354ABBA1FD42D4B59421F0 /* TPCircularBuffer.cpp */,
+				41DF463D7E7C438B9E36FA63 /* TPCircularBuffer.h */,
+			);
+			name = TPCircularBuffer;
+			sourceTree = "<group>";
+		};
+		355203D218B84311A053489D /* src */ = {
+			isa = PBXGroup;
+			children = (
+				AE7C88CE1B6A487E91B28F2E /* FilePlayer.cpp */,
+				66EE08EC1E48447A997A4627 /* GenericUnit.cpp */,
+				22F0C02A16F147D0A1E763D0 /* Input.cpp */,
+				37FA8EC40F614278BBBE4854 /* Midi.cpp */,
+				3D4CA7A7057642A79AC5E79A /* Mixer.cpp */,
+				AE4491B70CEE4303AAF948F3 /* NetReceive.cpp */,
+				D105078059724842943BDAF6 /* NetSend.cpp */,
+				317925A3AFC647BC9B111D22 /* Output.cpp */,
+				858622487CB24A438D1A875A /* Sampler.cpp */,
+				937F8BFDE6B348C7AFEA37D0 /* SpeechSynth.cpp */,
+				4EE6BB9A00A849E5B18F08C2 /* Tap.cpp */,
+				AE07552348C74E7C9C03C894 /* GUI.mm */,
+				E4080FED84DC46B794D0031A /* AudioUnitMidi.h */,
+				06865570D6C0483BBE6E3616 /* AudioUnitTap.h */,
+				170CCAF2D9DF4136A957AA43 /* AudioUnitTypes.h */,
+				C0C31EC6AD4A4581B7FC7617 /* AudioUnitUtils.h */,
+				6FF3D898AD5D46C2A5631FC8 /* GenericUnit.h */,
+				BAB279283BEC4657A3F29AB6 /* GenericUnitSubclasses.h */,
+				C9768F2CC0DE4A029B51D142 /* TPCircularBuffer */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		111A167F644042778BCADA98 /* AudioUnit */ = {
+			isa = PBXGroup;
+			children = (
+				CF544B00BE5A4CF3956B9E96 /* include */,
+				355203D218B84311A053489D /* src */,
+			);
+			name = AudioUnit;
+			sourceTree = "<group>";
+		};
+		01B97315FEAEA392516A2CEA /* Blocks */ = {
+			isa = PBXGroup;
+			children = (
+				111A167F644042778BCADA98 /* AudioUnit */,
+			);
+			name = Blocks;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				C7C3653EC9064FE3A907A498 /* Resources.h */,
+				7E93E9354CE64F388042F86C /* auMidi_Prefix.pch */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0063318651B742CFAC8430A4 /* CinderApp.icns */,
+				3EB265FD1B53451594EE32D9 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+				B42A5AB124B043C7AA76C160 /* Carbon.framework */,
+				CF754A6DDA914B1DA72A855F /* CoreAudioKit.framework */,
+				869EB103D6054A16A363F27E /* CoreMidi.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* auMidi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "auMidi" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = auMidi;
+			productInstallPath = "$(HOME)/Applications";
+			productName = auMidi;
+			productReference = 8D1107320486CEB800E47090 /* auMidi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "auMidi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* auMidi */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* auMidi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F17928BF3E74EFF9DAB297E /* CinderApp.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84A9C3C74F4A4D0FB28CA47C /* auMidiApp.cpp in Sources */,
+				219FE48A88294646B2063D4A /* FilePlayer.cpp in Sources */,
+				4FD9764F5B9A453096F90833 /* GenericUnit.cpp in Sources */,
+				D17D7AB153EA401189E2DF0F /* Input.cpp in Sources */,
+				BC950E50C7854D60B3B3C0B7 /* Midi.cpp in Sources */,
+				C3032765DD9449898D7F3EA1 /* Mixer.cpp in Sources */,
+				515A1224D54A44239723DDD6 /* NetReceive.cpp in Sources */,
+				6917F7DE03424208AD5641A4 /* NetSend.cpp in Sources */,
+				4009681C5FE248DEB40E3CD4 /* Output.cpp in Sources */,
+				E4426ACE59854F569FDAF6C8 /* Sampler.cpp in Sources */,
+				BD77602D979347F284B4F5CD /* SpeechSynth.cpp in Sources */,
+				E7E3B7DD99104CB1B721712C /* Tap.cpp in Sources */,
+				BEE63B602FA04394AC5BAD37 /* GUI.mm in Sources */,
+				6F93E2A01B6548B3827FFCA7 /* TPCircularBuffer.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = auMidi_Prefix.pch;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = "\"$(CINDER_PATH)/lib/libcinder_d.a\"";
+				PRODUCT_NAME = auMidi;
+				WRAPPER_EXTENSION = app;
+				SYMROOT = ./build;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_FAST_MATH = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = auMidi_Prefix.pch;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = "\"$(CINDER_PATH)/lib/libcinder.a\"";
+				PRODUCT_NAME = auMidi;
+				STRIP_INSTALLED_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+				SYMROOT = ./build;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = i386;
+				CINDER_PATH = "../../../../../../Cinder";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/boost\"";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = (
+					"\"$(CINDER_PATH)/include\" ../include",
+					../../../../../../Cinder/blocks/AudioUnit/include,
+				);
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = i386;
+				CINDER_PATH = "../../../../../../Cinder";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/boost\"";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = (
+					"\"$(CINDER_PATH)/include\" ../include",
+					../../../../../../Cinder/blocks/AudioUnit/include,
+				);
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "auMidi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "auMidi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
