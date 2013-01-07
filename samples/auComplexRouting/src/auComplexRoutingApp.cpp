@@ -122,7 +122,7 @@ void auComplexRoutingApp::setup()
 	output.start();
 }
 
-// This callback will be called whenever the distortion unit needs more samples (very frequently)
+// This callback will be called whenever the panner unit needs more samples (very frequently)
 // It renders a chord of sine waves, and the chord's volume is pulsed by another sine wave
 OSStatus auComplexRoutingApp::renderCallback(void *inRefCon,
 											 AudioUnitRenderActionFlags *ioActionFlags,
