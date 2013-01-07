@@ -124,6 +124,10 @@ void auComplexRoutingApp::setup()
 
 // This callback will be called whenever the panner unit needs more samples (very frequently)
 // It renders a chord of sine waves, and the chord's volume is pulsed by another sine wave
+// Note that Render Callbacks are run on a separate, real-time thread. Be prepared to
+// handle the standard mutex, concurrency, etc issues if you're writing your own render
+// callbacks which need to share data with other objects. Also note that performing heavy
+// tasks like allocating memory or reading from disk are A Bad Idea.
 OSStatus auComplexRoutingApp::renderCallback(void *inRefCon,
 											 AudioUnitRenderActionFlags *ioActionFlags,
 											 const AudioTimeStamp *inTimeStamp,
