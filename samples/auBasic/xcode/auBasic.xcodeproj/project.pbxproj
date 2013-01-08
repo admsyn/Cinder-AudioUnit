@@ -65,27 +65,27 @@
 		350155561E9641558763C274 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; name = Carbon.framework; };
 		A7D538FAAF67432A8B72A0F6 /* CoreAudioKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = System/Library/Frameworks/CoreAudioKit.framework; sourceTree = SDKROOT; name = CoreAudioKit.framework; };
 		A34F8072F7934C2B948B07B5 /* CoreMidi.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = System/Library/Frameworks/CoreMidi.framework; sourceTree = SDKROOT; name = CoreMidi.framework; };
-		33BEFF361BB344568766EB6A /* AudioUnit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ../../../../../../Cinder/blocks/AudioUnit/include/AudioUnit.h; sourceTree = "<group>"; name = AudioUnit.h; };
-		0DE5702064AE4DD993FC7C08 /* FilePlayer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; path = ../../../../../../Cinder/blocks/AudioUnit/src/FilePlayer.cpp; sourceTree = "<group>"; name = FilePlayer.cpp; };
-		001DE964AA6544198E586300 /* GenericUnit.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; path = ../../../../../../Cinder/blocks/AudioUnit/src/GenericUnit.cpp; sourceTree = "<group>"; name = GenericUnit.cpp; };
-		09C4F8187C3043B7B4E49CC8 /* Input.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; path = ../../../../../../Cinder/blocks/AudioUnit/src/Input.cpp; sourceTree = "<group>"; name = Input.cpp; };
-		5E3FDE32984343A99A82034B /* Midi.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; path = ../../../../../../Cinder/blocks/AudioUnit/src/Midi.cpp; sourceTree = "<group>"; name = Midi.cpp; };
-		81D312AEC173408B84416344 /* Mixer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; path = ../../../../../../Cinder/blocks/AudioUnit/src/Mixer.cpp; sourceTree = "<group>"; name = Mixer.cpp; };
-		46F633BE76FB4F20BAF6BA53 /* NetReceive.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; path = ../../../../../../Cinder/blocks/AudioUnit/src/NetReceive.cpp; sourceTree = "<group>"; name = NetReceive.cpp; };
-		E0C8440E302B4CF0A614153E /* NetSend.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; path = ../../../../../../Cinder/blocks/AudioUnit/src/NetSend.cpp; sourceTree = "<group>"; name = NetSend.cpp; };
-		9AF63F20A55F4C969A8FCB1B /* Output.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; path = ../../../../../../Cinder/blocks/AudioUnit/src/Output.cpp; sourceTree = "<group>"; name = Output.cpp; };
-		7FE5FAC2F98B400AB946A66F /* Sampler.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; path = ../../../../../../Cinder/blocks/AudioUnit/src/Sampler.cpp; sourceTree = "<group>"; name = Sampler.cpp; };
-		4CD5E708838A40F3A070E9AA /* SpeechSynth.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; path = ../../../../../../Cinder/blocks/AudioUnit/src/SpeechSynth.cpp; sourceTree = "<group>"; name = SpeechSynth.cpp; };
-		DD1DED91F19C4BD8AEFA105C /* Tap.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; path = ../../../../../../Cinder/blocks/AudioUnit/src/Tap.cpp; sourceTree = "<group>"; name = Tap.cpp; };
-		B42DC07D689A4370930DCA94 /* GUI.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ../../../../../../Cinder/blocks/AudioUnit/src/GUI.mm; sourceTree = "<group>"; name = GUI.mm; };
-		22A576FDDA7543C38DD13AC2 /* AudioUnitMidi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ../../../../../../Cinder/blocks/AudioUnit/src/AudioUnitMidi.h; sourceTree = "<group>"; name = AudioUnitMidi.h; };
-		AB596893CF9B4E5A973FDA96 /* AudioUnitTap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ../../../../../../Cinder/blocks/AudioUnit/src/AudioUnitTap.h; sourceTree = "<group>"; name = AudioUnitTap.h; };
-		0098DA298CB542258F348958 /* AudioUnitTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ../../../../../../Cinder/blocks/AudioUnit/src/AudioUnitTypes.h; sourceTree = "<group>"; name = AudioUnitTypes.h; };
-		7111351A40DA4294A1E07CC1 /* AudioUnitUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ../../../../../../Cinder/blocks/AudioUnit/src/AudioUnitUtils.h; sourceTree = "<group>"; name = AudioUnitUtils.h; };
-		B0BD31E659764D60BFC6DA36 /* GenericUnit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ../../../../../../Cinder/blocks/AudioUnit/src/GenericUnit.h; sourceTree = "<group>"; name = GenericUnit.h; };
-		3D6BE03A2F6D463DA24FFF37 /* GenericUnitSubclasses.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ../../../../../../Cinder/blocks/AudioUnit/src/GenericUnitSubclasses.h; sourceTree = "<group>"; name = GenericUnitSubclasses.h; };
-		684EDED56B194B769ABEB0C1 /* TPCircularBuffer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; path = ../../../../../../Cinder/blocks/AudioUnit/src/TPCircularBuffer/TPCircularBuffer.cpp; sourceTree = "<group>"; name = TPCircularBuffer.cpp; };
-		A047557E7A8D424EB5DACBF0 /* TPCircularBuffer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ../../../../../../Cinder/blocks/AudioUnit/src/TPCircularBuffer/TPCircularBuffer.h; sourceTree = "<group>"; name = TPCircularBuffer.h; };
+		33BEFF361BB344568766EB6A /* AudioUnit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ../../../include/AudioUnit.h; sourceTree = "<group>"; name = AudioUnit.h; };
+		0DE5702064AE4DD993FC7C08 /* FilePlayer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; path = ../../../src/FilePlayer.cpp; sourceTree = "<group>"; name = FilePlayer.cpp; };
+		001DE964AA6544198E586300 /* GenericUnit.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; path = ../../../src/GenericUnit.cpp; sourceTree = "<group>"; name = GenericUnit.cpp; };
+		09C4F8187C3043B7B4E49CC8 /* Input.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; path = ../../../src/Input.cpp; sourceTree = "<group>"; name = Input.cpp; };
+		5E3FDE32984343A99A82034B /* Midi.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; path = ../../../src/Midi.cpp; sourceTree = "<group>"; name = Midi.cpp; };
+		81D312AEC173408B84416344 /* Mixer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; path = ../../../src/Mixer.cpp; sourceTree = "<group>"; name = Mixer.cpp; };
+		46F633BE76FB4F20BAF6BA53 /* NetReceive.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; path = ../../../src/NetReceive.cpp; sourceTree = "<group>"; name = NetReceive.cpp; };
+		E0C8440E302B4CF0A614153E /* NetSend.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; path = ../../../src/NetSend.cpp; sourceTree = "<group>"; name = NetSend.cpp; };
+		9AF63F20A55F4C969A8FCB1B /* Output.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; path = ../../../src/Output.cpp; sourceTree = "<group>"; name = Output.cpp; };
+		7FE5FAC2F98B400AB946A66F /* Sampler.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; path = ../../../src/Sampler.cpp; sourceTree = "<group>"; name = Sampler.cpp; };
+		4CD5E708838A40F3A070E9AA /* SpeechSynth.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; path = ../../../src/SpeechSynth.cpp; sourceTree = "<group>"; name = SpeechSynth.cpp; };
+		DD1DED91F19C4BD8AEFA105C /* Tap.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; path = ../../../src/Tap.cpp; sourceTree = "<group>"; name = Tap.cpp; };
+		B42DC07D689A4370930DCA94 /* GUI.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ../../../src/GUI.mm; sourceTree = "<group>"; name = GUI.mm; };
+		22A576FDDA7543C38DD13AC2 /* AudioUnitMidi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ../../../src/AudioUnitMidi.h; sourceTree = "<group>"; name = AudioUnitMidi.h; };
+		AB596893CF9B4E5A973FDA96 /* AudioUnitTap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ../../../src/AudioUnitTap.h; sourceTree = "<group>"; name = AudioUnitTap.h; };
+		0098DA298CB542258F348958 /* AudioUnitTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ../../../src/AudioUnitTypes.h; sourceTree = "<group>"; name = AudioUnitTypes.h; };
+		7111351A40DA4294A1E07CC1 /* AudioUnitUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ../../../src/AudioUnitUtils.h; sourceTree = "<group>"; name = AudioUnitUtils.h; };
+		B0BD31E659764D60BFC6DA36 /* GenericUnit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ../../../src/GenericUnit.h; sourceTree = "<group>"; name = GenericUnit.h; };
+		3D6BE03A2F6D463DA24FFF37 /* GenericUnitSubclasses.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ../../../src/GenericUnitSubclasses.h; sourceTree = "<group>"; name = GenericUnitSubclasses.h; };
+		684EDED56B194B769ABEB0C1 /* TPCircularBuffer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; path = ../../../src/TPCircularBuffer/TPCircularBuffer.cpp; sourceTree = "<group>"; name = TPCircularBuffer.cpp; };
+		A047557E7A8D424EB5DACBF0 /* TPCircularBuffer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ../../../src/TPCircularBuffer/TPCircularBuffer.h; sourceTree = "<group>"; name = TPCircularBuffer.h; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -393,7 +393,7 @@
 				SDKROOT = macosx;
 				USER_HEADER_SEARCH_PATHS = (
 					"\"$(CINDER_PATH)/include\" ../include",
-					../../../../../../Cinder/blocks/AudioUnit/include,
+					../../../include,
 				);
 			};
 			name = Debug;
@@ -413,7 +413,7 @@
 				SDKROOT = macosx;
 				USER_HEADER_SEARCH_PATHS = (
 					"\"$(CINDER_PATH)/include\" ../include",
-					../../../../../../Cinder/blocks/AudioUnit/include,
+					../../../include,
 				);
 			};
 			name = Release;
