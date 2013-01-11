@@ -200,7 +200,7 @@ void auComplexRoutingApp::update()
 	mixdownTap.getSamples(mixdownBuffer);
 }
 
-PolyLine2f waveformForSamples(TapSampleBuffer buffer, float width, float height)
+PolyLine2f waveformForSamples(const TapSampleBuffer &buffer, float width, float height)
 {
 	PolyLine2f waveform;
 	
