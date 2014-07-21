@@ -3,6 +3,8 @@ Cinder-AudioUnit
 
 Cinder block which simplifies hosting of [Audio Units](http://en.wikipedia.org/wiki/Audio_Units) in Cinder apps.
 
+UPDATE July 2014: Apologies, but I've let this repo decay a bit. [ofxAudioUnit](https://github.com/admsyn/ofxAudioUnit) has many more features now, and is essentially the same codebase at its core. The actual openFrameworks dependency is pretty minimal, so it should be viable in a Cinder project.
+
 ####Adding Cinder-AudioUnit to your App
 This block makes use of the [recent app::rewrite branch of Cinder & TinderBox](https://github.com/cinder/Cinder/tree/appRewrite) to ease the creation of new Cinder apps. First, add this repository to your cinder/blocks folder:
 
